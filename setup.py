@@ -1,7 +1,8 @@
 from distutils.core import setup
+from __init__ import VERSION
 
 setup(name='Snowflake',
-      version='1.0',
+      version=VERSION,
       description='Snowflake generator.',
       author='JohnyTheCarrot',
       author_email='johnythecarrot@gmail.com',
