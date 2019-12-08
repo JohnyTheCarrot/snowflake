@@ -1,4 +1,4 @@
-from distutils.core import setup
+from distutils.core import setup, find_packages
 from __init__ import VERSION
 
 setup(name='Snowflake',
@@ -7,5 +7,5 @@ setup(name='Snowflake',
       author='JohnyTheCarrot',
       author_email='johnythecarrot@gmail.com',
       url='https://github.com/JohnyTheCarrot/snowflake',
-      packages=['snowflake']
+      packages=find_packages()
 )
